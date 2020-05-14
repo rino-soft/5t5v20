@@ -1,0 +1,233 @@
+
+.fondoplomoclaro{
+    background-color:#ccc;
+}
+.fondoplomoblanco{
+    background-color:#f6f6f6;
+}
+.fondoblanco{
+    background-color:#FFF;
+}
+.sombravengadora{
+    box-shadow: 0 0 4px 1px;   
+}
+.fondoazul{
+    background-color:#1A3B5C;
+}
+.fondoVerde{
+ background-color: #48ff00;   
+}
+.fondoRojo{
+    background-color:#990000;
+}
+.fondoingreso{
+    background-color:#E68F8F;
+    border-radius: 3px;
+}
+.negrilla{
+    font-weight: bold;
+}
+
+.espacio_logo{
+    padding-top: 15px;
+}
+.bordeado1{
+    border: solid 1px #ccc;
+}
+.bordeadoDerecha{
+    border-right: solid 1px #666;
+}
+.bordeadoIzquierda{
+    border-left: solid 1px #666;
+}
+.bordeArriba{
+    border-top: solid 1px #666;
+}
+.alinearDerecha{
+    text-align: right;
+}
+.alinearIzquierda{
+    text-align:left;
+}
+.alinearAbajo{
+    vertical-align: bottom;
+}
+.fuentegrandelog
+{
+    font-size: 26px;
+    color: white;
+}
+.centrartexto
+{
+    text-align: center;
+}
+.espaciado{
+    padding: 15px;
+}
+.espaciadochico{
+    padding: 2px;
+}
+.esparriba{
+    padding-top: 10px;
+}
+.espizquierda{
+    padding-left: 20px;
+}
+.espabajo{
+    padding-bottom: 20px;
+}
+.espderecha{
+    padding-right:  20px;
+}
+
+.enviar{
+    margin:16px 0 0 0;
+    height:30px;
+    text-align: center;
+    vertical-align: central;
+}
+.pie{
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #FFF;
+    font-weight: bold;
+
+}
+.rojo
+{   color: red;
+    font-weight: bold;
+}
+.blanco_text
+{   color:#FFF;
+
+}
+.verde
+{    
+    color: chartreuse;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
+}
+.azultext{
+    color: #0066cc;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
+}
+.oculto{
+    display: none;
+}
+.bordeverde{
+    -moz-box-shadow: -1px -1px 5px #48ff00;
+    -webkit-box-shadow: -1px -1px 5px #48ff00;
+    box-shadow: -1px -1px 5px #48ff00;
+}
+.milink {
+    cursor:pointer
+}
+.letrachica{
+    font-size: 11px;
+
+}
+.letraGrande{
+    font-size: 16px;
+}
+.letra50{
+    font-size: 50px;
+}
+.letra35{
+    font-size: 35px;
+}
+.letra25{
+    font-size: 25px;
+}
+.letra20{
+    font-size: 20px;
+}
+.letraMediana{
+    font-size: 12px;
+
+}
+.azulmarino{
+    color:#002166;
+}
+.negrocolor{
+    color:black;
+}
+.licenciaConducir{
+    background: url(images/Licencia1.png) center top no-repeat;
+
+}
+.ocultar_barraInf{
+    background: url(images/abajoFondo.png) bottom repeat-x;
+}
+.texto90grados{
+     -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+ 
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  position: relative;
+  
+}
+.to20{
+    top:20px;
+}
+.to70{
+    top:70px;
+}
+.altofecha{
+    height: 45px;
+}
+.altofechaDescripcion{
+    height: 100px;
+}
+.text_area {
+    width:242px;
+    border:1px solid #c0c0c0;
+    margin:0;
+    background-color:#fff;
+}
+.alinearVerticalCentro{
+    vertical-align:middle;
+    
+}
+.fondobuscar{
+    background: url("images/search_btn.png") no-repeat scroll left top #FFFFFF;
+    border: 1px solid #C0C0C0;
+ 
+    margin: 0;
+    padding: 10px 2px 10px 40px;
+    width: 200px;
+}
+.botonbuscar{
+    height: 40px;
+    
+}
+.solicitado{background-color: #5794bf; font-weight: bold}
+.anulado{background-color: darkred; font-weight: bold}
+.asignado{background-color:greenyellow; font-weight: bold}
+.parcial{background-color: gold; font-weight: bold}
+
+.OK{
+    background: #C3F9CC;
+    border: solid 1px #7BA17B;
+    color:darkgreen;
+}
+.NO{
+    background: #FFCDCE;
+    border: solid 1px #E47474;
+    color: #990000;
+}
+.border2
+{
+-moz-border-radius-topright: 0.4em; 
+-moz-border-radius-topleft: 0.4em;
+-webkit-border-top-right-radius: 10px; 
+-webkit-border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}

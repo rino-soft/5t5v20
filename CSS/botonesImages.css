@@ -1,0 +1,551 @@
+/* 
+    Document   : botonesImages
+    Created on : 21-05-2015, 12:18:48 PM
+    Author     : COMPUTER
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.fondoUp{
+     background: url("../imagenesweb/icono/up.png") no-repeat scroll right top;
+    background-size:auto,auto;
+}
+.fondoDown{
+     background: url("../imagenesweb/icono/down.png") no-repeat scroll right top;
+    background-size:auto,auto;
+}
+.impresionDoc{
+   background: url("../imagenesweb/icono/print.png") no-repeat scroll center center;
+    background-size: 80% 80%;
+    float: left;
+    height: 28px;
+    width: 28px;
+   
+}
+.impresionDoc:hover{
+   background: url("../imagenesweb/icono/print.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 28px;
+    width: 28px;
+    
+   
+}
+.impresionDocVerde{
+   background: url("../imagenesweb/icono/printVerde.png") no-repeat scroll left top;
+    background-size: 80% 80%;
+    float: left;
+    height: 28px;
+    width: 28px;
+   
+}
+.impresionDocVerde:hover{
+   background: url("../imagenesweb/icono/printVerde.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 28px;
+    width: 28px;
+    
+   
+}
+.impresionpdf{
+   background: url("../imagenesweb/icono/pdf2.png") no-repeat scroll left top;
+    background-size: 80% 80%;
+    float: left;
+    height: 28px;
+    width: 28px;
+   
+}
+.verDocumento{
+   background: url("../imagenesweb/icono/verdocumento22.png") no-repeat scroll left top;
+    background-size: 80% 80%;
+    float: left;
+    height: 28px;
+    width: 28px;   
+}
+.editarDocumento{
+   background: url("../imagenesweb/icono/edit-document.png") no-repeat scroll left top;
+    background-size: 80% 80%;
+    float: left;
+    height: 28px;
+    width: 28px;   
+}
+.estadoVehiculo{
+   background: url("../imagenesweb/icono/estado2.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 80px;
+    width:80px;   
+}
+.estadoVehiculo:hover{
+   background: url("../imagenesweb/icono/estado.png") no-repeat scroll left top;
+       background-size: 100% 100%;
+    float: left;
+    height: 80px;
+    width:80px;   
+ 
+}
+.asignaVehiculo{
+   background: url("../imagenesweb/icono/asignaVehiculo2.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 80px;
+    width:80px;   
+}
+.asignaVehiculo:hover{
+   background: url("../imagenesweb/icono/asignaVehiculo.png") no-repeat scroll left top;
+     background-size: 100% 100%;
+    float: left;
+    height: 80px;
+    width:80px;   
+}
+.adjuntaDoc{
+   background: url("../imagenesweb/icono/adjuntaArchivo2.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 80px;
+    width:80px;    
+}
+.adjuntaDoc:hover{
+   background: url("../imagenesweb/icono/adjuntaArchivo.png") no-repeat scroll left top;
+     background-size: 100% 100%;
+    float: left;
+    height: 80px;
+    width:80px;   
+}
+
+.asig_vehiculo{
+   background: url("../imagenesweb/icono/asig_vehi.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 40px;   
+}
+.edit_devolucion{
+   background: url("../imagenesweb/icono/edit_dev.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 40px;   
+}
+.novehiculo{
+   background: url("../imagenesweb/icono/novehi.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 40px;   
+}
+.editvehiculo{
+   background: url("../imagenesweb/icono/pen.png") no-repeat scroll left top;
+    background-size: 60% 60%;
+    float: left;
+    height: 30px;
+    width: 30px;   
+}
+.editvehiculo:hover{
+   background: url("../imagenesweb/icono/pen.png") no-repeat scroll left top;
+    background-size: 80% 80%;
+    float: left;
+    height: 30px;
+    width: 30px;   
+}
+.mecanico{
+   background: url("../imagenesweb/icono/mecanico.png") no-repeat scroll center top;
+    background-size:60% 80%;
+    float: left;
+    height: 30px;
+    width: 40px;   
+}
+.carroceria{
+   background: url("../imagenesweb/icono/carroceria.png") no-repeat scroll center top;
+    background-size:60% 80%;
+    float: left;
+    height: 30px;
+    width: 40px;   
+}
+.llanta{
+   background: url("../imagenesweb/icono/llanta.png") no-repeat scroll center top;
+   background-size:60% 80%;
+    float: left;
+    height: 30px;
+    width: 40px;   
+}
+
+/*
+
+RRRR  U   U   BBB    EEEEE    NN    N
+R   R U   U   B  B   E        N N   N
+RRRR  U   U   B B    EEE      N  N  N
+R   R U   U   B  B   E        N   N N
+R   R  UUU    BBB    EEEEE    N    NN
+
+*/
+
+
+.edit_simple{
+    
+    background:#ff0033 url("../imagenesweb/icono/edit.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width:30px;    
+}
+
+
+/*adicionando este ultimo butom para ver el historial */
+.ver_historial{
+   background: url("../imagenesweb/icono/historial.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 25px;
+    width: 25px;   
+}
+
+.delete_ico{
+   background: url("../imagenesweb/icono/file_del.png") no-repeat scroll left top;
+    background-size: 80% 80%;
+    float: left;
+    height: 30px;
+    width: 30px;   
+}
+
+.delete_ico:hover {
+   background: url("../imagenesweb/icono/file_del.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 30px;   
+}
+.anular_ico{
+   background: url("../imagenesweb/icono/file_del.png") no-repeat scroll left top;
+    background-size: 90% 90%;
+    float: left;
+    height: 30px;
+    width: 30px;   
+}
+
+.anular_ico:hover {
+   background: url("../imagenesweb/icono/file_del.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 30px;   
+}
+.cobro_ico{
+   background: url("../imagenesweb/icono/cerdo1.png") no-repeat scroll left top;
+    background-size: 90% 90%;
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin: 0 0 0 5px;
+}
+
+.cobro_ico:hover {
+   background: url("../imagenesweb/icono/cerdo1.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 30px;   
+}
+.cobroYA_ico{
+   background: url("../imagenesweb/icono/cerdop1.png") no-repeat scroll left top;
+    background-size: 90% 90%;
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin: 0 0 0 5px;
+}
+
+.cobroYA_ico:hover {
+   background: url("../imagenesweb/icono/cerdop1.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 30px;   
+}
+.cobroNO_ico{
+   background: url("../imagenesweb/icono/cerdon1.png") no-repeat scroll left top;
+    background-size: 90% 90%;
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin: 0 0 0 5px;
+}
+
+.cobroNO_ico:hover {
+   background: url("../imagenesweb/icono/cerdon1.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 30px;   
+}
+.edit_ico{
+   background: url("../imagenesweb/icono/edit.png") no-repeat scroll center center;
+    background-size: 80% 80%;
+    float: left;
+    height: 20px;
+    width: 20px;   
+}
+
+.edit_ico:hover {
+   background: url("../imagenesweb/icono/edit.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 20px;
+    width: 20px;   
+}
+.no_edit_ico{
+   background: url("../imagenesweb/icono/noedit.png") no-repeat scroll center center;
+    background-size: 80% 80%;
+    float: left;
+    height: 20px;
+    width: 20px;   
+}
+
+.no_edit_ico:hover {
+   background: url("../imagenesweb/icono/noedit.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 20px;
+    width: 20px;   
+}
+/*nuevo estilo para RIF*/
+.permisos_icono{
+    background: url("../imagenesweb/icono/key.png") no-repeat scroll center top;
+    background-size: 60% 60%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+.permisos_icono:hover {
+    background: url("../imagenesweb/icono/key.png") no-repeat scroll center top;
+    background-size: 80% 80%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+.empresa_icono{
+    background: url("../imagenesweb/icono/bussiness-card_0.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+.empresa_icono:hover {
+    background: url("../imagenesweb/icono/bussiness-card_0.png") no-repeat scroll center center;
+    background-size: 80% 80%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+
+.excel_export{
+    background: url("../imagenesweb/icono/excel_export.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+
+.excel_export:hover {
+    background: url("../imagenesweb/icono/excel_export.png") no-repeat scroll center center;
+    background-size: 80% 80%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+
+.facilito{
+    background: url("../imagenesweb/icono/facilito.jpg") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+
+.facilito:hover {
+    background: url("../imagenesweb/icono/facilito.jpg") no-repeat scroll center center;
+    background-size: 80% 80%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+
+
+.baul_rechazado{
+    
+    background: url("../imagenesweb/icono/folder_trash.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 25px;
+    width: 25px; 
+
+}
+.baul_rechazado_bloqueado{
+    
+    background: url("../imagenesweb/icono/folder_trash_no.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 25px;
+    width: 25px; 
+
+}
+
+
+.add_archivo{
+    
+    background: #D0D0D0 url("../imagenesweb/icono/file-add.png") no-repeat scroll center center;
+    background-size: 50% 50%;
+    float: left;
+    height: 90px;
+    width: 90px; 
+
+}
+.add_archivo:hover{
+    
+    background: #1b75bb url("../imagenesweb/icono/file-add.png") no-repeat scroll center center;
+    background-size: 50% 50%;
+    float: left;
+    height: 90px;
+    width: 90px; 
+
+}
+
+.barcode{
+    
+  background: url("../imagenesweb/icono/barcode.png") no-repeat scroll center center;
+    background-size: 80% 80%;
+    float: left;
+    height: 28px;
+    width: 28px;
+   
+
+}
+.barcode:hover{
+    
+  background: url("../imagenesweb/icono/barcode.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 28px;
+    width: 28px;
+    
+}
+.nuevoCod{
+    
+  background: url("../imagenesweb/icono/icontext.png") no-repeat scroll center center;
+    background-size: 80% 80%;
+    float: right;
+    height: 35px;
+    width: 35px;
+   
+
+}
+.nuevoCod:hover{
+    
+  background: url("../imagenesweb/icono/icontext.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: right;
+    height: 35px;
+    width: 35px;
+    
+}
+.add_cuenta{
+    
+  background: url("../imagenesweb/icono/add.png") no-repeat scroll center center;
+    background-size: 80% 80%;
+    float: right;
+    height: 35px;
+    width: 35px;
+   
+
+}
+.boton_usuarios{
+    
+  background: url("../imagenesweb/icono/users.png") no-repeat scroll center center;
+    background-size: auto 80%;
+    float: right;
+    height: 28px;
+    width: 28px;
+   
+
+}
+.boton_vehiculos{
+    
+  background: url("../imagenesweb/icono/truck.png") no-repeat scroll center center;
+    background-size: auto 80%;
+    float: right;
+    height: 28px;
+    width: 28px;
+   
+
+}
+.boton_compras{
+    
+  background: url("../imagenesweb/icono/cart-alt-1_0.png") no-repeat scroll center center;
+    background-size: auto 80%;
+    float: right;
+    height: 28px;
+    width: 28px;
+   
+
+}
+.boton_pagos{
+    
+  background: url("../imagenesweb/icono/ventas.png") no-repeat scroll center center;
+    background-size: auto 80%;
+    float: right;
+    height: 28px;
+    width: 28px;
+   
+
+}
+.boton_contratos{
+    
+  background: url("../imagenesweb/icono/unfold-multiple.png") no-repeat scroll center center;
+    background-size: auto 80%;
+    float: right;
+    height: 28px;
+    width: 28px;
+   
+
+}
+.boton_ubicacion{
+    
+  background: url("../imagenesweb/icono/map-marker-pin.png") no-repeat scroll center center;
+    background-size: auto 80%;
+    float: right;
+    height: 28px;
+    width: 28px;
+   
+
+}
+.boton_lineas{
+    
+  background: url("../imagenesweb/icono/cel.png") no-repeat scroll center center;
+    background-size: auto 80%;
+    float: right;
+    height: 28px;
+    width: 28px;
+   
+
+}
+.boton_inventario{
+    
+  background: url("../imagenesweb/icono/store.png") no-repeat scroll center center;
+    background-size: auto 80%;
+    float: right;
+    height: 28px;
+    width: 28px;
+   
+
+}
+.fondo_inactivo{
+    
+  background: url("../imagenesweb/recursos/inactivo.png")  scroll center center;
+    background-size: auto 100%;
+    
+    
+   
+
+}
+
+

@@ -1,0 +1,115 @@
+/* 
+    Document   : paula
+    Created on : 28-01-2015, 11:37:19 AM
+    Author     : COMPUTER
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.margin_cero{margin: 0;}
+.cambio_fondo:hover{
+    background-color:  #d1d1d1;
+     font-weight: bold;
+     font-size: 12px;
+     
+    
+}
+.espder20{padding-right:  20px;}
+.fondo_verde{
+    background-color:#c1ebc1;
+        
+    border-radius: 3px;
+}
+
+.fondo_azulm{
+    background-color: #83C0FC;
+    border-radius: 3px;
+}
+.fondo_plomo_p{
+    background: #D0D0D0;
+    box-shadow: 0px 0px 0px #000;
+}
+.fondo_plomo_claro_areas_p{
+    background: #eee;
+    border: solid 1px #B3B4BD;
+     border-radius: 3px;
+}
+.mayusculas {
+    text-transform: uppercase;
+}
+.textarea_redond_300x50{
+    width: 300px;
+    height: 50px;
+    border: solid #B3B4BD 1px; 
+    border-radius: 3px; 
+    padding: 3px ; 
+
+}
+.textarea_redond_300x50:focus{
+  /* box-shadow: 0px 0px 3px #000;*/
+   background: #e5e5e5;
+   color: #000;
+}
+.textarea_redond_300x50:hover{
+    background: #D0D0D0;
+}
+.input_redond_20{
+    width: 20px; border: solid #B3B4BD 1px; border-radius: 5px; padding: 5px ; margin:15px 0 0 0;
+}
+.input_redond_20:focus{
+   box-shadow: 0px 0px 3px #000;
+   background: #D0D0D0;
+   color: #000;font-weight: bold;
+}
+.input_redond_20:hover{
+    background: #D0D0D0;
+}
+.div1150_1{
+    display:inline-block;
+    width: 1150px;
+    margin: 0px 0px 0px 5px;
+    float: left;
+}
+.input_redond_200{
+    width: 200px; border: solid #B3B4BD 1px; border-radius: 5px; padding: 5px ; margin:15px 0 0 0;
+}
+.input_redond_200:focus{
+   box-shadow: 0px 0px 3px #000;
+   background: #D0D0D0;
+   color: #000;font-weight: bold;
+}
+.input_redond_200:hover{
+    background: #D0D0D0;
+}
+.div500{
+    display:inline-block;
+    width: 95%;
+    margin: 10px 5px 0px 5px;
+    float: left;
+}
+.input_redond_100{
+    width: 100px; border: solid #B3B4BD 1px; border-radius: 5px; padding: 5px ; margin:15px 0 0 0;
+}
+.ancho20{
+    display:inline-block;
+    width: 20%;
+    float: left;
+}
+.ancho80{
+    display:inline-block;
+    width: 80%;
+    float: left;
+}
+.ancho100{
+    display:inline-block;
+    width: 98%;
+    float: left;
+}
+.fondo_Rojo{
+    background-color:#cc0000;
+}
+.fondo_chillon
+{
+    background-color: darkgray;
+}
+
+

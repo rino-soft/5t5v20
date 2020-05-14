@@ -1,0 +1,787 @@
+.link{
+    color: #111;
+}
+.link:hover{
+    color: #990000;
+}
+.fieldset_mod{
+    padding: 2px 2px 2px 2px;
+    margin: 0 0 0 0;
+}
+.fondoplomoclaro{
+    background-color:#ccc;
+}
+.fondoplomoblanco{
+    background-color:#f6f6f6;
+}
+.fondo_amarillo_claro
+{
+    background-color: #fcefa1;
+}
+.fondo_rojo_claro{
+     background-color:#FFCDCE;
+}
+.fondo_verde_claro{
+     background-color:#ADFFAD;
+}
+.fondoblanco{
+    background-color:#FFF;
+}
+.sombravengadora{
+    box-shadow: 0 0 4px 1px;   
+}
+.fondoazul{
+    background-color:#1A3B5C;
+}
+.fondoVerde{
+    background-color: #48ff00;   
+}
+.fondoRojo{
+    background-color:#990000;
+}
+.negrilla{
+    font-weight: bold;
+}
+
+.espacio_logo{
+    padding-top: 15px;
+}
+.bordeado1{
+    border: solid 1px #ccc;
+}
+.bordeadoDerecha{
+    border-right: solid 1px #666;
+}
+.bordeadoIzquierda{
+    border-left: solid 1px #666;
+}
+.bordeArriba{
+    border-top: solid 1px #666;
+}
+.bordeAbajo{
+    border-bottom: solid 1px #666;
+}
+.alinearDerecha{
+    text-align: right;
+}
+.alinearIzquierda{
+    text-align:left;
+}
+.alinearAbajo{
+    vertical-align: bottom;
+}
+.fuentegrandelog
+{
+    font-size: 26px;
+    color: white;
+}
+.centrartexto
+{
+    text-align: center;
+}
+.espaciado{
+    padding: 15px;
+}
+.espaciadochico{
+    padding: 2px;
+}
+.esparriba{
+    padding-top: 10px;
+}
+.espizquierda{
+    padding-left: 20px;
+}
+.espabajo{
+    padding-bottom: 20px;
+}
+.espderecha{
+    padding-right:  20px;
+}
+
+.enviar{
+    margin:16px 0 0 0;
+    height:30px;
+    text-align: center;
+    vertical-align: central;
+}
+.pie{
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #FFF;
+    font-weight: bold;
+
+}
+.rojo
+{   color: red;
+    font-weight: bold;
+}
+.blanco_text
+{   color:#FFF;
+
+}
+.verde
+{    
+    color: chartreuse;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
+}
+.verdecolor
+{    
+    color:#008000;
+    
+}
+.azultext{
+    color: #0066cc;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
+}
+.oculto{
+    display: none;
+}
+.bordeverde{
+    -moz-box-shadow: -1px -1px 5px #48ff00;
+    -webkit-box-shadow: -1px -1px 5px #48ff00;
+    box-shadow: -1px -1px 5px #48ff00;
+}
+.milink {
+    cursor:pointer
+}
+
+.milinktext:hover {
+    cursor:pointer;
+        color:#FF0000;
+}
+.letrachica{
+    font-size: 11px;
+
+}
+.letraGrande{
+    font-size: 16px;
+}
+.letra50{
+    font-size: 50px;
+}
+.letra35{
+    font-size: 35px;
+}
+.letra25{
+    font-size: 25px;
+}
+.letraMediana{
+    font-size: 12px;
+
+}
+.azulmarino{
+    color:#002166;
+}
+.rojoText{
+    color:#990000;
+}
+.negrocolor{
+    color:black;
+}
+.licenciaConducir{
+    background: url(images/Licencia1.png) center top no-repeat;
+
+}
+.ocultar_barraInf{
+    background: url(images/abajoFondo.png) bottom repeat-x;
+}
+.texto90grados{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    position: relative;
+
+}
+.texfecha {
+    width:100px;
+    border:1px solid #c0c0c0;
+    margin:0;
+    padding:5px 2px;
+   /* height:16px;*/
+    background-color:#fff;
+}
+.to20{
+    top:20px;
+}
+.to70{
+    top:70px;
+}
+.altofecha{
+    height: 45px;
+}
+.altofechaDescripcion{
+    height: 100px;
+}
+.text_area {
+    width:242px;
+    border:1px solid #c0c0c0;
+    margin:0;
+    background-color:#fff;
+}
+.textarea_medio
+{
+    width:648px;
+    height: 40px;
+    border:1px solid #c0c0c0;
+    margin:0;
+    background-color:#fff;
+    
+}
+.textarea_grande
+{
+    width:648px;
+    height: 100px;
+    border:1px solid #c0c0c0;
+    margin:0;
+    background-color:#fff;
+}
+.alinearVerticalCentro{
+    vertical-align:middle;
+
+}
+
+.calendario_image
+{
+    background: url("../imagenesweb/icono/calendario.png") no-repeat scroll left top;
+    background-size: 100% auto, 100% auto;
+    height: 25px;
+    margin: 0;
+   width: 25px;
+  float: left;
+}
+.cargando_circulo{
+    background: url("../imagenesweb/recursos/loading.gif") no-repeat scroll center;
+   
+   height: 80px;
+    
+   
+   
+}
+
+.botonbuscar{
+    height: 40px;
+
+}
+.solicitado{background-color: #5794bf; font-weight: bold}
+.anulado{background-color: darkred; font-weight: bold}
+.asignado{background-color:greenyellow; font-weight: bold}
+.parcial{background-color: gold; font-weight: bold}
+.OK{
+    background: #C3F9CC;
+    border: solid 1px #7BA17B;
+    color:darkgreen;
+}
+.NO{
+    background: #FFCDCE;
+    border: solid 1px #E47474;
+    color: #990000;
+}
+
+
+.fondocambiable
+{
+    background-color:#f6f6f6;
+}
+.fondocambiable:hover
+{
+    background-color:#ccc;
+   
+}
+
+
+
+/*estilos Ruben Payrumani ino para botones que se muestran y desaparecen en cada persona */
+
+#menubotones{
+    background: url("../imagenesweb/icono/opciones.png") no-repeat scroll right top;
+    height: 21px;
+    width: 120px;
+    float: right;
+    padding-right: 14px;
+    margin-top: 7px;
+}
+#menubotones:hover .menu_personal{
+    display: block;
+}
+.menubotones_permiso_inactivo{
+    background: url("../imagenesweb/icono/menu_opcion_permiso_desactivado.png") no-repeat scroll left top;
+    float: right;
+    height: 21px;
+    width: 24px; 
+}
+.menubotones_permiso{
+    background: url("../imagenesweb/icono/menu_opcion_permiso_inactivo.png") no-repeat scroll left top;
+    float: right;
+    height: 21px;
+    width: 24px; 
+}
+.menubotones_permiso:hover{
+    background: url("../imagenesweb/icono/menu_opcion_permiso_activo.png") no-repeat scroll left top;
+}
+.menubotones_adicionar_inactivo{
+    background: url("../imagenesweb/icono/menu_opcion_nuevo_desactivado.png") no-repeat scroll left top;
+    float: right;
+    height: 21px;
+    width: 24px; 
+}
+.menubotones_adicionar{
+    background: url("../imagenesweb/icono/menu_opcion_nuevo_inactivo.png") no-repeat scroll left top;
+    float: right;
+    height: 21px;
+    width: 24px; 
+}
+
+.menubotones_adicionar:hover{
+    background: url("../imagenesweb/icono/menu_opcion_nuevo_activo.png") no-repeat scroll left top;  
+}
+
+
+.menubotones_editar_inactivo{
+    background: url("../imagenesweb/icono/menu_opcion_editar_desactivado.png") no-repeat scroll left top;
+    float: right;
+    height: 21px;
+    width: 24px; 
+
+}
+.menubotones_editar{
+    background: url("../imagenesweb/icono/menu_opcion_editar_inactivo.png") no-repeat scroll left top;
+    float: right;
+    height: 21px;
+    width: 24px; 
+
+}
+.menubotones_editar:hover {
+    background: url("../imagenesweb/icono/menu_opcion_editar_activo.png") no-repeat scroll left top;
+
+}
+.menubotones_eliminar_inactivo{
+    background: url("../imagenesweb/icono/menu_opcion_eliminar_desactivado.png") no-repeat scroll left top;
+    float: right;
+    height: 21px;
+    width: 24px;
+   
+}
+
+.menubotones_eliminar{
+    background: url("../imagenesweb/icono/menu_opcion_eliminar_inactivo.png") no-repeat scroll left top;
+    float: right;
+    height: 21px;
+    width: 24px;
+   
+}
+
+.menubotones_eliminar:hover{
+    background: url("../imagenesweb/icono/menu_opcion_eliminar_activo.png") no-repeat scroll left top;}
+
+.menubotones_historial{
+    background: url("../imagenesweb/icono/menu_opcion_historial_inactivo.png") no-repeat scroll left top;
+    float: right;
+    height: 21px;
+    width: 24px; 
+}
+.menubotones_historial:hover{
+    background: url("../imagenesweb/icono/menu_opcion_historial_activo.png") no-repeat scroll left top;}
+.menubotones_historial_inactivo{
+    background: url("../imagenesweb/icono/menu_opcion_historial_desactivado.png") no-repeat scroll left top;
+    float: right;
+    height: 21px;
+    width: 24px; 
+}
+
+.divIzq{
+    float: left;
+}
+
+.sel
+{
+    border:1px solid #c0c0c0;
+    margin:0;
+    padding:4px 2px;
+    height:30px;
+    
+}
+.texto_gris
+{
+    color:#878787;
+}
+ .horario_nuevo
+    {
+        background: url(../imagenesweb/icono/horario_new.png) no-repeat scroll left top rgba(0,0,0,0);
+        height:32px;
+        width: 32px;
+        background-size: 100%, 100%;
+        float:left;
+}
+.horario_edita
+    {
+        background: url(../imagenesweb/icono/horario_edit.png) no-repeat scroll left top rgba(0,0,0,0);
+        height:32px;
+        width: 32px;
+        background-size: 100%, 100%;
+        float:left;
+}
+form .grid_4,
+form .grid_2
+{
+    padding: 2px;
+    border : solid 0px;
+}
+
+.fondo_form
+{
+    background-color: #F6F6F6;
+}
+.fotografia
+{
+    background: url(images/userpic.gif)center top no-repeat;
+    height:80px;
+    width: 75px;
+    background-size: 100% auto, 100% auto;
+    border: dotted 1px;
+}
+.estiloDatos
+{
+    border: dotted 1px;
+    margin-left: 10px;
+    height:140px;
+    padding: 5px;
+}
+
+.listas_meses
+{
+    padding: 10px;
+}
+
+.color_fechasManiana
+{
+    background-color:#c3e8d6;
+    height:20px;
+}
+
+.color_fechasTarde
+{
+    background-color: #cac1bf;
+    height:20px;
+}
+
+.alinear_a_la_derecha
+{
+    text-align: right;
+    margin-right: 5px;
+}
+.container_scroll
+{
+    margin: 0 auto;
+    /*width: 1140px;*/
+}
+.wrap
+{
+    border: 1px solid white;
+}
+.handle
+{
+    background: none repeat scroll 0 0 #292A33;
+    cursor: pointer;
+    /*height: 100%;*/
+    width: 100px;
+}
+.frames
+{
+
+    background: #C3EBF2;
+    overflow: hidden;
+}
+.frames ul
+{
+    /*font-size: 50px;*/
+    /*height: 100%;*/
+
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.frames ul li
+{
+    background: none scroll #C3EBF2;
+    margin-left:0;
+    cursor: pointer;
+    float: left;
+    /*height: 100%;*/
+    /*margin: 0 1px 0 0;*/
+    /*padding: 0;*/
+    /*text-align: center;*/
+    /*width: 227px;*/
+}
+.fondo_hora_fin
+{
+    background: url(imagenesweb/icono/fondo_hora_fin.png)center top repeat-y ;
+}
+.fondo_hora_ini
+{
+    background: url(imagenesweb/icono/fondo_hora_ini.png)center top repeat-y;
+}
+.tamHora
+{
+    width: 27px;
+    height:25px;
+    padding-top: 3px;
+    margin-left: 1px;
+    text-align: center;
+    font-size: 10px;
+}
+.enhora
+{
+    background: #4DD5E8;
+}
+   .visible
+{
+    display: block;
+}
+.texto_gris
+{
+    color:#878787;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+ .letramuyChica
+{
+    font-size: 10px;
+}
+
+.tamHora
+{
+    width: 27px;
+    height:25px;
+    padding-top: 3px;
+    margin-left: 1px;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+.enhora
+{
+    background: #4DD5E8;
+}
+
+.fondo_hora_fin
+{
+    background: url(../imagenesweb/icono/fondo_hora_fin.png)center top repeat-y ;
+}
+.fondo_hora_ini
+{
+    background: url(../imagenesweb/icono/fondo_hora_ini.png)center top repeat-y;
+}
+.fondo_verdeclaro
+{
+    background: #339900;
+    color: white;
+}
+
+.boton_seleccionar{
+    /*    background: url("../imagenesweb/icono/checkbox.png") no-repeat scroll left top;*/
+    float: right;
+    height: 32px;
+    width: 32px;
+}
+
+.boton_deseleccionar{
+    background: url("../imagenesweb/icono/cancel.png") no-repeat scroll left top;
+    float: right;
+    height: 25px;
+    width: 25px;
+    background-size: 55% auto, 55% auto;
+}
+
+.fondo_asignaHorario
+{
+    background: #F5F5F5;
+}
+.fondo_tituloAsigna
+{
+    background:#EEEEEE;
+}
+.bordeado_seleccionados
+{
+    border: solid 1px #F5F5F5;
+}
+
+
+.ver_AsigHorario {
+    background-image: url("../imagenesweb/icono/preferences.png");
+    background-repeat: no-repeat;
+    background-size: 40% auto, 40% auto;
+    float: left;
+    height: 22px;
+    width: 22px;
+}
+
+.tam_horariosAsignados
+{
+    width: 115px;
+    float: left;
+}
+.estiloError
+{
+        border: solid 1px #E47474;
+        background:#FFCDCE;
+}
+.importante{
+   border: solid 1px #E47474;
+        background:#FFCDCE;
+         border-radius:4px;
+}
+.estiloSinError
+{
+        border: solid 0px #7BA17B;
+        background:'';
+}
+.menu_solicitudes
+{
+        height: 100%;
+        background:  #333333;
+        color:white;
+}
+.imagen_archivo
+{
+  background: url(images/mail-attachment-hi.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto, 100% auto;
+  float: left;
+  height: 15px;
+  width: 15px;
+}
+.archivo_adjunto
+{    color: #002166; }
+.archivo_adjunto:hover
+{    color: red;}
+
+#span_horas:hover .span_dias
+{
+    display:inline;
+}
+
+.estilo_feriado
+{
+    color: red;
+}
+.filas{
+    border-top: solid 1px  #878787;
+}
+.filas:hover{
+    /*background: url("../imagenesweb/recursos/deg_barra.png");*/
+    background-color: #C0C0C0;
+    border: solid 1px  #878787;
+    border-left: none;
+    border-right: none;
+    /*background-position: center;*/
+}
+.filas_ama{
+    border-top: solid 1px  #FDFCC7;
+}
+.filas_ama:hover{
+    /*background: url("../imagenesweb/recursos/deg_barra.png");*/
+    background-color: #FBFAB2;
+    border: solid 1px  #878787;
+    border-left: none;
+    border-right: none;
+    /*background-position: center;*/
+}
+.filas_ss{
+    border-top: solid 1px  #878787;
+}
+.filas_ss:hover{
+    /*background: url("../imagenesweb/recursos/deg_barra.png");*/
+    background-color: #C0C0C0;
+    /*background-position: center;*/
+}
+.contenidoJustificacion
+{
+    background: url("../imagenesweb/recursos/deg_muestra.png");
+    background-repeat: repeat-x ;
+    background-position: bottom;
+}
+.bordecolorPlomo
+{
+    border-bottom: solid 1px #D0D0D0;
+}
+.controles:hover
+{
+background: #5794bf;    
+}
+.tomaraccion{
+    
+    background: url("../imagenesweb/icono/tomar_accion1.png") no-repeat scroll left top;
+    float: left;
+    height: 32px;
+    width: 32px;
+    padding-left:33px;
+   
+}
+.verSolicitud{
+    background: url("../imagenesweb/icono/verdocumento22.png") no-repeat scroll left top;
+     background-size: 40% 80%;
+    float: left;
+    height: 32px;
+    width: 32px;
+    padding-left:33px;
+}
+.atencionimage{
+   background: url("../imagenesweb/icono/alert.png") no-repeat scroll left top;
+     background-size: 40% 80%;
+    float: left;
+    height: 32px;
+    width: 32px;
+    padding-left:33px;
+}
+.okimage{
+   background: url("../imagenesweb/icono/check.png") no-repeat scroll center center;
+     background-size: 80% 80%;
+    float: left;
+    height: 32px;
+    width: 32px;
+    padding-left:33px;
+}
+.img_mensages{
+    padding: 0;
+     height: 25px;
+    width: 25px;
+ background-size: 80% 80%;}
+
+.historialboton{
+   background: url("../imagenesweb/icono/historial.png") no-repeat scroll left top;
+   background-size: 80% 80%;
+    float: left;
+    height: 32px;
+    width: 32px;
+   
+}
+.impresionboton{
+   background: url("../imagenesweb/icono/print.png") no-repeat scroll left top;
+    background-size: 80% 80%;
+    float: left;
+    height: 32px;
+    width: 32px;
+   
+}
+.text_grande {
+    width:500px;
+    border:1px solid #c0c0c0;
+    margin:0;
+    padding:5px 2px;
+    height:16px;
+    background-color:#fff;
+}
+
+.solicitado{background-color: gold;color: black;}
+.Aceptado{background-color: #339900;color:black;}
+.Rechazado{background-color: #990000;color: white;}

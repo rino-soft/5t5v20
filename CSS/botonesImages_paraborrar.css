@@ -1,0 +1,279 @@
+/* 
+    Document   : botonesImages
+    Created on : 21-05-2015, 12:18:48 PM
+    Author     : COMPUTER
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.fondoUp{
+     background: url("../imagenesweb/icono/up.png") no-repeat scroll right top;
+    background-size:auto,auto;
+}
+.fondoDown{
+     background: url("../imagenesweb/icono/down.png") no-repeat scroll right top;
+    background-size:auto,auto;
+}
+.impresionDoc{
+   background: url("../imagenesweb/icono/print.png") no-repeat scroll left top;
+    background-size: 80% 80%;
+    float: left;
+    height: 28px;
+    width: 28px;
+   
+}
+.impresionDoc :hover{
+   background: url("../imagenesweb/icono/print.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 28px;
+    width: 28px;
+    
+   
+}
+.impresionpdf{
+   background: url("../imagenesweb/icono/pdf2.png") no-repeat scroll left top;
+    background-size: 80% 80%;
+    float: left;
+    height: 28px;
+    width: 28px;
+   
+}
+.verDocumento{
+   background: url("../imagenesweb/icono/verdocumento22.png") no-repeat scroll left top;
+    background-size: 80% 80%;
+    float: left;
+    height: 28px;
+    width: 28px;   
+}
+.editarDocumento{
+   background: url("../imagenesweb/icono/edit-document.png") no-repeat scroll left top;
+    background-size: 80% 80%;
+    float: left;
+    height: 28px;
+    width: 28px;   
+}
+.estadoVehiculo{
+   background: url("../imagenesweb/icono/estado2.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 80px;
+    width:80px;   
+}
+.estadoVehiculo:hover{
+   background: url("../imagenesweb/icono/estado.png") no-repeat scroll left top;
+       background-size: 100% 100%;
+    float: left;
+    height: 80px;
+    width:80px;   
+ 
+}
+.asignaVehiculo{
+   background: url("../imagenesweb/icono/asignaVehiculo2.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 80px;
+    width:80px;   
+}
+.asignaVehiculo:hover{
+   background: url("../imagenesweb/icono/asignaVehiculo.png") no-repeat scroll left top;
+     background-size: 100% 100%;
+    float: left;
+    height: 80px;
+    width:80px;   
+}
+.adjuntaDoc{
+   background: url("../imagenesweb/icono/adjuntaArchivo2.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 80px;
+    width:80px;    
+}
+.adjuntaDoc:hover{
+   background: url("../imagenesweb/icono/adjuntaArchivo.png") no-repeat scroll left top;
+     background-size: 100% 100%;
+    float: left;
+    height: 80px;
+    width:80px;   
+}
+
+.asig_vehiculo{
+   background: url("../imagenesweb/icono/asig_vehi.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 40px;   
+}
+.edit_devolucion{
+   background: url("../imagenesweb/icono/edit_dev.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 40px;   
+}
+.novehiculo{
+   background: url("../imagenesweb/icono/novehi.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 40px;   
+}
+.editvehiculo{
+   background: url("../imagenesweb/icono/pen.png") no-repeat scroll left top;
+    background-size: 60% 60%;
+    float: left;
+    height: 30px;
+    width: 30px;   
+}
+.editvehiculo:hover{
+   background: url("../imagenesweb/icono/pen.png") no-repeat scroll left top;
+    background-size: 80% 80%;
+    float: left;
+    height: 30px;
+    width: 30px;   
+}
+.mecanico{
+   background: url("../imagenesweb/icono/mecanico.png") no-repeat scroll center top;
+    background-size:60% 80%;
+    float: left;
+    height: 30px;
+    width: 40px;   
+}
+.carroceria{
+   background: url("../imagenesweb/icono/carroceria.png") no-repeat scroll center top;
+    background-size:60% 80%;
+    float: left;
+    height: 30px;
+    width: 40px;   
+}
+.llanta{
+   background: url("../imagenesweb/icono/llanta.png") no-repeat scroll center top;
+   background-size:60% 80%;
+    float: left;
+    height: 30px;
+    width: 40px;   
+}
+
+/*
+
+RRRR  U   U   BBB    EEEEE    NN    N
+R   R U   U   B  B   E        N N   N
+RRRR  U   U   B B    EEE      N  N  N
+R   R U   U   B  B   E        N   N N
+R   R  UUU    BBB    EEEEE    N    NN
+
+*/
+
+
+.edit_simple{
+    
+    background:#ff0033 url("../imagenesweb/icono/edit.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width:30px;    
+}
+
+
+/*adicionando este ultimo butom para ver el historial */
+.ver_historial{
+   background: url("../imagenesweb/icono/historial.png") no-repeat scroll left top;
+    background-size: 100% 100%;
+    float: left;
+    height: 25px;
+    width: 25px;   
+}
+
+
+/*nuevo estilo para RIF*/
+.permisos_icono{
+    background: url("../imagenesweb/icono/key.png") no-repeat scroll center top;
+    background-size: 60% 60%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+.permisos_icono:hover {
+    background: url("../imagenesweb/icono/key.png") no-repeat scroll center top;
+    background-size: 80% 80%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+.empresa_icono{
+    background: url("../imagenesweb/icono/bussiness-card_0.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+.empresa_icono:hover {
+    background: url("../imagenesweb/icono/bussiness-card_0.png") no-repeat scroll center center;
+    background-size: 80% 80%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+
+.excel_export{
+    background: url("../imagenesweb/icono/excel_export.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+
+.excel_export:hover {
+    background: url("../imagenesweb/icono/excel_export.png") no-repeat scroll center center;
+    background-size: 80% 80%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+
+.facilito{
+    background: url("../imagenesweb/icono/facilito.jpg") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+
+.facilito:hover {
+    background: url("../imagenesweb/icono/facilito.jpg") no-repeat scroll center center;
+    background-size: 80% 80%;
+    float: left;
+    height: 30px;
+    width: 30px; 
+}
+
+
+.baul_rechazado{
+    
+    background: url("../imagenesweb/icono/folder_trash.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    float: left;
+    height: 25px;
+    width: 25px; 
+
+}
+
+.add_archivo{
+    
+    background: #D0D0D0 url("../imagenesweb/icono/file-add.png") no-repeat scroll center center;
+    background-size: 50% 50%;
+    float: left;
+    height: 90px;
+    width: 90px; 
+
+}
+.add_archivo:hover{
+    
+    background: #1b75bb url("../imagenesweb/icono/file-add.png") no-repeat scroll center center;
+    background-size: 50% 50%;
+    float: left;
+    height: 90px;
+    width: 90px; 
+
+}
+
+

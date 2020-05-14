@@ -1,0 +1,212 @@
+/* 
+    Document   : login_styles
+    Created on : 07-12-2014, 07:11:18 AM
+    Author     : RubenPayrumani
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    background-color: #4A4A4A;
+    color: #222222;
+    font-family:sans-serif;
+}
+
+
+.div_centro {
+    position: absolute;
+    top: 50%; /* Buscamos el centro horizontal (relativo) del navegador */
+    left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
+    width: 550px; /* Definimos el ancho del objeto a centrar */
+    height: 200px; /* Definimos el alto del objeto a centrar */
+    margin-top: 10%; /* Restamos la mitad de la altura del objeto con un margin-top */
+    margin-left: -275px; /* Restamos la mitad de la anchura del objeto con un margin-left */
+}
+.div_centropeque {
+    top: 210px; /* Buscamos el centro horizontal (relativo) del navegador */
+    left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
+    
+    position: absolute;
+    width: 550px; /* Definimos el ancho del objeto a centrar */
+    height: 20px; /* Definimos el alto del objeto a centrar */
+    margin-top: 10%; /* Restamos la mitad de la altura del objeto con un margin-top */
+    margin-left: -275px; /* Restamos la mitad de la anchura del objeto con un margin-left */
+}
+.div_centro_cabeza {
+    position: absolute;
+    top: 0; /* Buscamos el centro horizontal (relativo) del navegador */
+    left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
+    width: 550px; /* Definimos el ancho del objeto a centrar */
+    height: 60px; /* Definimos el alto del objeto a centrar */
+    margin-top: 0%; /* Restamos la mitad de la altura del objeto con un margin-top */
+    margin-left: -275px; /* Restamos la mitad de la anchura del objeto con un margin-left */
+    text-align: center;
+}
+.div_centro_pie {
+    position: absolute;
+    top: 100%; /* Buscamos el centro horizontal (relativo) del navegador */
+     /* Buscamos el centro vertical (relativo) del navegador */
+    width: 1000px; /* Definimos el ancho del objeto a centrar */
+    height: 100px; /* Definimos el alto del objeto a centrar */
+    margin-top: -100px; /* Restamos la mitad de la altura del objeto con un margin-top */
+    font-size: 12px
+      /* Restamos la mitad de la anchura del objeto con un margin-left */
+}
+.fondo_blanco{
+
+    -moz-box-shadow: inset 2px 2px 20px rgba(0,0,0,.8);
+    -webkit-box-shadow: inset 2px 2px 20px rgba(0,0,0,.8);
+    box-shadow: inset 2px 2px 20px rgba(0,0,0,.8);
+    border-radius: 10px;
+    background: #CFCFCF;
+    background-size: 50%;
+
+}
+
+
+.div_form{
+    background: #fff;
+    border-radius: 10px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.div_logo{
+    height: 150px;
+    width: 150px;
+    background: url("../imagenesweb/recursos/lgogo.png") no-repeat scroll right bottom;
+    background-size: 100%;
+}
+#imagen1{
+    height: 120px;
+    width: 120px;
+    float: left;
+    display: inline-block;
+    background:  url("../imagenesweb/recursos/logooksts3.png") no-repeat scroll ;
+    background-size: 100%;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+#imagen2{
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: inline-block;
+    background: url("../imagenesweb/recursos/logoGO.png") no-repeat scroll ;
+    background-size: 100%;
+}
+
+
+
+
+.div_e1{
+    height: 50px;
+    width: 50px;
+    background: url("../imagenesweb/recursos/e1.png") no-repeat scroll right bottom;
+    background-size: 100%;
+}
+.div_e2{
+    height: 30px;
+    width: 30px;
+    background: url("../imagenesweb/recursos/e2.png") no-repeat scroll right bottom;
+    background-size: 100%;
+}
+.div_e3{
+    height: 70px;
+    width: 70px;
+    background: url("../imagenesweb/recursos/e3.png") no-repeat scroll right bottom;
+    background-size: 100%;
+}
+.div_e4{
+    height: 25px;
+    width: 25px;
+    background: url("../imagenesweb/recursos/e4.png") no-repeat scroll right bottom;
+    background-size: 100%;
+}
+
+
+
+.sombra_borde{
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px #000;
+}
+.espaciado{
+    padding: 5px;
+}
+.cabeza{
+    color: white;
+    background-color: #143270;
+    text-align: center;
+}
+.negrilla{
+    font-weight: bold;
+}
+
+
+.username {
+    padding: 5px 5px;
+    width: 200px;
+    border-radius: 3px;
+    background:white;
+    color: #000;
+    border: solid 1px #999;
+}
+
+.password {
+    padding: 5px 5px;
+    width: 200px;
+    border-radius: 3px;
+    background:white;
+    color: #000;
+    border: solid 1px #999;
+}
+.username:focus {
+    border: solid 1px #222222;
+    background:#e6e6e6;
+}
+.password:focus{
+    border: solid 1px #222222;
+    background:#e6e6e6;
+}
+.username:hover{
+
+    border: solid 1px #e13300;
+}
+.password:hover{
+
+    border: solid 1px #e13300;
+}
+
+.boton_ingresar{
+    padding: 4px 30px;
+    border-radius: 5px;
+    background: #002166;
+    color: #fff;
+    font-weight: bold;
+}
+.boton_ingresar:hover{
+    background: #990000;
+    color: #fff;
+    font-weight: bold;
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+.imgr{
+    -webkit-animation: 7s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+#rueda {
+     -webkit-animation-direction: reverse;
+     animation-direction: reverse;
+}
+#imgr1{position:relative;left:50px;top:-160px;}
+#imgr2{position:relative;left:16px;top:-230px;}

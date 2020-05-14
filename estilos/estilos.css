@@ -1,0 +1,44 @@
+body{
+	background: #22272b;
+}
+.wrapper {
+	width: 500px;
+	margin: 0 auto;
+	background: #c21b1c;
+	color: #333;
+	border: 5px solid #fff;
+	border-radius: 5px;
+}
+h2{
+	color: #c21b1c;
+	font-size: 22px;
+}
+#email, #password {
+	padding: 5px 2px;
+	width: 300px;
+	border-radius: 6px;
+	background: #25242a;
+	color: #fff;
+}
+label {
+	display: block;
+}
+.wrapper #formulario_login {
+	padding: 40px 60px;
+	background: #111111;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+}
+input[type=submit] {
+	padding: 4px 30px;
+	border-radius: 5px;
+	background: #3095f1;
+	color: #fff;
+}
+
+#captcha{
+	margin: 10px 0px;
+}

@@ -1,0 +1,52 @@
+/* 
+    Document   : adriana
+    Created on : 17-sep-2015, 15:01:53
+    Author     : @adriana
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.boton_ver_usuario{
+    display: inline-block;  height: 32px; width: 15px; float: left;
+    padding: 0 0 0 32px;
+    background: url(Imagenes/verdocumento.png) no-repeat center;
+ 
+}
+.boton_ver_usuario:hover{
+    background: url(Imagenes/verdocumento22.png) no-repeat center;
+}
+.boton_editar_usuario{
+    display: inline-block;  height: 32px; width: 32px; float: left;
+    /*padding: 0 0 0 32px;*/
+    background: url(Imagenes/edit.png) no-repeat center;
+    background-size: 90% 90%;
+}
+.boton_editar_usuario:hover{
+    background: url(Imagenes/edit-alt-2.png) no-repeat center;
+    background-size: 90% 90%;
+}
+.boton_imprimir_usuario{
+    display: inline-block;  height: 32px; width: 15px; float: left;
+    padding: 0 0 0 32px;
+    background: url(Imagenes/pdf2.png) no-repeat center;
+}
+.boton_imprimir_usuario:hover{
+    background: url(Imagenes/pdf-1.png) no-repeat center;
+}
+.fondo{
+     display: inline-block;   width: 968px; float: left;
+    padding: 0 0 0 10px;
+    
+}
+.ver_usuario{
+     display: inline-block;   width: 600px; float: left;
+    padding: 0 0 0 5px;
+}
+.ver_foto_usuario{
+    display: inline-block;  width: 300px; float: left;
+    padding: 0 0 0 5px;
+}
+
+root { 
+    display: block;
+}
+

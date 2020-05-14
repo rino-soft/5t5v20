@@ -1,0 +1,102 @@
+#cabecera{
+    font-family:sans-serif;
+    background-color:#ccc;
+    color:red;
+}
+
+#login-box {
+	width:370px;
+	height: 352px;
+	padding: 58px 58px 0 58px;
+	color: #ebebeb;
+	font: 12px Arial, Helvetica, sans-serif;
+	background:url(../css_imagenes/login-box-backg.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#login-box img {
+	border:none;
+}
+
+#login-box h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 44px "Calibri", Arial;
+}
+
+
+#login-box-name {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+}
+
+#login-box-field {
+	float: left;
+	display:inline;
+	width:230px;
+	margin:0;
+	margin:0 0 7px 0;
+}
+
+
+.form-login  {
+	width: 205px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 16px;
+	color: #ebebeb;
+}
+
+
+.login-box-options  {
+	clear:both;
+	padding-left:87px;
+	font-size: 11px;
+}
+
+.login-box-options a {
+	color: #ebebeb;
+	font-size: 11px;
+}
+.centrartexto
+{
+    text-align: center;
+}
+
+.alinearDerecha
+{
+    text-align:right;
+}
+.bordeado1
+{
+    border: solid 1px;
+}
+
+.pie{
+    background-color: #143270;
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    color:#FFF;
+    font-weight: bold;
+    
+}
+
+.fondoblanco
+{
+    background-color: #FFF;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(10, 10, 10, 0.3);
+    box-shadow: 0px 0px 5px 3px rgba(10, 10, 10, 0.3);
+
+    
+}
+#espacio_arriba
+{ padding-top: 30px;
+ padding-bottom: 30px;}
